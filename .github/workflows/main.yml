@@ -31,6 +31,6 @@ jobs:
     - name: Ejecutar
       run: |
         cd "C:\1Twitch"
-        python DuplTwi_R0_1.py $Env:CHNLS_LINKS 1290505425,1290631453,1290264760,1290206999,1290041164
+        python DuplTwi_R0_1.py $Env:CHNLS_LINKS 1290193507,1290297195
       env:
         CHNLS_LINKS: ${{ secrets.CHNLS_LINKS }}
